@@ -1,0 +1,45 @@
+/* NAVBAR */
+.iroute-nav .navbar {
+  background-color: transparent !important;
+}
+.navbar .nav-item .nav-link {
+  color: #fff;
+}
+
+.navbar.solid {
+  background-color: #333;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
+
+/* CAROUSEL */
+.carousel-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.jumbotro .jumbotro-c {
+  background-color: transparent !important;
+}
+
+.body-content {
+  padding-bottom: 15px;
+}
+/* SERVICIOS */
+.servicios-ico {
+  font-size: 90px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #333;
+  padding-top: 10px;
+}
+.tm-footer {
+  font-size: 11px;
+}
